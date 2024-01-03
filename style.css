@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    
+}
+
+
+
+
+
+
+
+
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+    align-items: center;
+    padding: 0% 10px;
+}
+
+
+.imglogo img {
+    padding: 10px;
+
+}
+
+.header-list ul {
+    display: flex;
+    list-style: none;
+    /* border: 1px solid black; */
+
+}
+
+.header-list ul li {
+    /* border: 2px solid black; */
+    padding: 0% 10px;
+
+}
+
+
+
+.header-list ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.logg h3 {
+
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+
+
+form {
+    /* border: 1px solid black; */
+    width: 25%;
+    padding: 40px;
+    margin: 10px auto;
+    background-color: rgb(39, 177, 154);
+    box-shadow: 0 5px 10px grey;
+    border-radius: 10px;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+form input {
+    width: 100%;
+    margin: 0 0 20px 0;
+    padding: 10px;
+    text-align: center;
+    border: none;
+    /* outline: none; */
+    outline-color: rgb(1, 88, 69);
+    font-size: large;
+    font-weight: bold;
+    box-shadow: 0 5px 10px grey;
+    border-radius: 5px;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+
+form button {
+    width: 50%;
+    padding: 7px;
+    margin-left: 25%;
+    margin-top: 30px;
+    font-size: larger;
+    font-weight: bold;
+    box-shadow: 0 5px 10px grey;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Dancing Script', cursive;
+
+
+}
+
+form button:hover {
+
+    cursor: pointer;
+    background-color: rgb(0, 126, 107);
+
+
+}
+
+
+
+
+
+
+
+
+footer {
+    
+    width: 30%;
+    text-align: center;
+    /* border: 1px solid black; */
+    margin: 70px auto 0 auto;
+    padding: 2px;
+    
+
+}
